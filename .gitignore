@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.env/
+.env
+.env.*
+.vscode/
+*.log
+.ipynb_checkpoints/
+*.tmp
+*.swp

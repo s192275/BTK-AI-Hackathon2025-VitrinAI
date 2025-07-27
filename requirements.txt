@@ -1,0 +1,10 @@
+google-generativeai
+Pillow
+transformers
+faster-whisper
+torch
+sounddevice
+numpy
+requests-toolbelt
+streamlit
+python-dotenv

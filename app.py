@@ -36,14 +36,14 @@ def whisper_model(model_size: str = "turbo", device: str = "cpu", fs: int = 1600
     model = WhisperModel(model_size, device = device)  
     buffer = np.zeros(0, dtype=np.float32)
 
-    def callback(indata: np.ndarray, frames: int, time: sd.CallbackTime, status: sd.CallbackFlags) -> None:
+    def callback(indata: np.ndarray, frames: int, time: sd.CallbackStop, status: sd.CallbackFlags) -> None:
         """
         Mikrofon akışından gelen ses verisini işler.
 
         Args:
             indata (np.ndarray): _description_. Şekli (frames, channels) olan ses verisi dizisi (örnekler).
             frames (int): _description_. Bu callback çağrısında alınan örnek sayısı.
-            time (sd.CallbackTime): _description_. Zaman bilgilerini içeren bir yapı.
+            time (sd.CallbackStop): _description_. Zaman bilgilerini içeren bir yapı.
             status (sd.CallbackFlags): _description_. Giriş akışının durumu hakkında bilgi.
         Returns:
             None

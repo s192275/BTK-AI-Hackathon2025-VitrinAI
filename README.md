@@ -1,5 +1,5 @@
-📦 Akıllı E-Ticaret İçerik ve Görsel Destek Platformu - VitrinAI
-BTK AI Hackathon 2025 Projesi
+### 📦 Akıllı E-Ticaret İçerik ve Görsel Destek Platformu - VitrinAI
+### BTK AI Hackathon 2025 Projesi
 
 🔍 Proje Amacı
 E-ticaret platformlarının hızla yaygınlaştığı günümüzde, ürün satıcıları profesyonel ürün çekimleri, manken kullanımı gibi yüksek maliyetli süreçlerle karşı karşıya kalmaktadır. Bu proje, ürün satıcıları arasındaki rekabet farkını azaltarak daha eşit şartlarda satış yapabilmelerini amaçlamaktadır. Platformumuz, satıcıların ürün açıklamalarını ve görsellerini zahmetsizce e-ticaret platformlarına uygun hale getirmelerini sağlar.
